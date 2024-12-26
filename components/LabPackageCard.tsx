@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import {
   Card,
 } from "@/components/ui/card";
@@ -116,7 +117,7 @@ export const LabPackageCard = ({
     <div>
       <p style={PackageDisplayNameStyles as any}>{packageDisplayName}</p>
       <div style={{ display: "flex", alignItems: "center" }}>
-        <img
+        <Image
           alt=""
           className="mb-1"
           src="https://www.medibuddy.in/assets/icons/corpLabs/labs-reports-tat.svg"
@@ -127,7 +128,7 @@ export const LabPackageCard = ({
         <p style={AvailableStyles as any}>Available at:</p>
         <div style={{ display: "flex", gap: "4px" }}>
           <div style={{ display: "flex", gap: "4px" }}>
-            <img
+            <Image
               width="10px"
               src="https://www.medibuddy.in/assets/icons/ahc/home-sample.svg"
               height="10"
@@ -136,7 +137,7 @@ export const LabPackageCard = ({
             {isHomeSampleAvailable && <p style={HomeStyles as any}>Home</p>}
           </div>
           <div style={{ display: "flex", gap: "4px" }}>
-            <img
+            <Image
               width="10px"
               src="https://www.medibuddy.in/assets/icons/ahc/lab-sample.svg"
               height="10"
