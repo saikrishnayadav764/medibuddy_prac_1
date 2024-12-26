@@ -1,4 +1,3 @@
-import Image from "next/image";
 import PackageCarousel from "@/components/PackageCarousel";
 import LabPackageList from "@/components/LabPackageList";
 
