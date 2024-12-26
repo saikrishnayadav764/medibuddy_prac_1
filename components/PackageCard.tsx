@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import {
   Card,
 } from "@/components/ui/card";
@@ -36,7 +37,7 @@ export function PackageCard({
           {packageDisplayName}
         </p>
         <div className="flex items-center">
-          <img
+          <image
             alt=""
             src="https://www.medibuddy.in/assets/icons/corpLabs/labs-reports-tat.svg"
             className="mb-2"
